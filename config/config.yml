@@ -1,0 +1,8 @@
+rails:
+  input:
+    flows:
+      - input check
+    validations:
+      - type: presence
+        constraint: true
+        error_message: "Input cannot be empty."
